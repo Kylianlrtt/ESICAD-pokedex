@@ -130,3 +130,39 @@ footer {
 .text-center {
   text-align: center;
 }
+
+table {
+  width: 100%;
+  margin: 20px 0;
+  border: 2px solid var(--red-darker);
+  background-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease; 
+}
+
+th, td {
+  border: 1px solid var(--red-darker);
+  padding: 12px;
+  text-align: center;
+  background-color: rgba(242, 242, 242, 0.9);
+  color: yellow; 
+  font-weight: bold; 
+  text-shadow: -1px -1px 0 blue, 1px -1px 0 blue, -1px 1px 0 blue, 1px 1px 0 blue; /* Blue outline */
+  transition: background-color 0.3s ease; 
+}
+
+th {
+  background-color: var(--red-lighter);
+  border-radius: 10px 10px 0 0;
+}
+
+tr:hover {
+  background-color: rgba(255, 191, 0, 0.2); 
+}
+
+td:hover {
+  background-color: rgba(255, 191, 0, 0.2); 
+  box-shadow: 0 0 10px rgba(255, 191, 0, 0.5);
+}

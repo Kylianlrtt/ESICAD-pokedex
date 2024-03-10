@@ -1,15 +1,71 @@
-<!-- 
-    Ce fichier représente la page de liste par type de pokémon du site.
--->
 <?php
 require_once("head.php");
 ?>
-<pre>
-    &lt;
-    A REMPLACER PAR VOTRE CODE POUR CHARGER ET AFFICHER DANS UN TABLEAU LA LISTE DES POKEMONS CLASSES PAR LEUR TYPE, PUIS PAR LEUR NOM.
-    CHAQUE POKEMON DOIT ETRE CLIQUABLE POUR NAVIGUER SUR UNE PAGE OU L'ON AFFICHE SON IMAGE ET L'ENSEMBLE DE SES CARACTERISTIQUES
-    &gt;
-    </pre>
-<?php
-require_once("footer.php");
-?>
+    <h2>Liste des Types de Pokémon</h2>
+
+    <table>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Plante</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Poison</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Eau</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Roche</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Feu</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Insecte</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Normal</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Electrique</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Sol</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Combat</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Psy</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Spectre</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Dragon</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Glace</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Vol</td>
+    </tr>
+    </table>
+
+</body>
+</html>
